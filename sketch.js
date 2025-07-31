@@ -193,3 +193,17 @@ function draw() {
   background(220);
   curve.draw();
 }
+
+function mousePressed() {
+  curve.mousePressed();
+}
+function keyPressed() {
+  curve.keyPressed();
+}
+function mouseReleased() {
+  curve.mouseReleased();
+}
+function mouseDragged() {
+  curve.mouseDragged();
+}
+
